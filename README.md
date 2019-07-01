@@ -4,10 +4,18 @@ Literally what the title implies. This is code for a generic topdown shooter. Th
 
 Movement:
 Traditional WASD
+
 Shift and a direction you can dash (if you have the ability)
+
 
 Fire:
 Click to fire
+
+# How to start the game
+1. Make a clone of the repository in an IDE (This game was written in java)
+2. Open the folder named TopDownShooter 
+3. Open the source folder 
+4. Open the main class which is called Game.java and run it  
 
 # Bugs
 Sometimes when the game starts up it will return a null pointer error (I have no idea why this is happening)
