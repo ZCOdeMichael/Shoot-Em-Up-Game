@@ -5,11 +5,7 @@ Literally what the title implies. This is code for a generic topdown shooter. Th
 Movement:
 *Traditional WASD
 *Shift and a direction you can dash (if you have the ability)
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
+Bullet list
 Fire:
 *Click to fire
 
