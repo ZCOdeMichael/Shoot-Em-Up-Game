@@ -25,5 +25,5 @@ For providing me with a guide to make this game.
 
 Also credit to the respective owners of the sprites that I barrowed as a place holder until I have time to make my own sprites. Sorry I could not find the current owners of these sprites.
 
-
+In addition thank you to Lumpman2 who helped on the shoot mechanic.
 
