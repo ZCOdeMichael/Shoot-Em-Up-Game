@@ -94,6 +94,8 @@ public class Wizard extends GameObject{
 	private void dashAbility(){
 		
 		for(int i = 0; i < handler.object.size(); i++){
+			if (handler.object.size() == i)
+				break;
 			GameObject tempObject = handler.object.get(i);
 			if(tempObject.getId() == ID.Block){
 				if(tempObject.getBounds().intersects(getRightBounds())){
@@ -187,6 +189,8 @@ public class Wizard extends GameObject{
 	
 	private void collision() {
 		for(int i = 0; i < handler.object.size(); i++) {
+			if (handler.object.size() == i)
+				break;
 			GameObject tempObject = handler.object.get(i);
 		   
 			if(tempObject.getId() == ID.Block) {

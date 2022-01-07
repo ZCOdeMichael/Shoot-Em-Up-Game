@@ -58,6 +58,8 @@ public class Bullet extends GameObject{
 		
 		for(int i = 0; i < handler.object.size(); i++)
 		{
+			if (handler.object.size() == i)
+				break;
 			
 			GameObject tempOb = handler.object.get(i);
 			

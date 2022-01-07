@@ -20,6 +20,8 @@ public class MouseInput extends MouseAdapter{
 		int my = (int) (e.getY() + camera.getY());
 		
 		for(int i = 0; i < handler.object.size(); i++){
+			if (handler.object.size() == i)
+				break;
 			GameObject tempObject = handler.object.get(i);
 			
 			if(tempObject.getId() == ID.Player && ValueHandler.ammo > 0 && !(ValueHandler.ammo <= 0)){

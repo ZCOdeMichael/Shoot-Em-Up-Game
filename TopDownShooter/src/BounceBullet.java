@@ -29,6 +29,9 @@ public class BounceBullet extends GameObject{
 		
 		for(int i = 0; i < handler.object.size(); i++)
 		{
+			if (handler.object.size() == i)
+				break;
+			
 			GameObject tempObject = handler.object.get(i);
 			
 			if(tempObject.getId() == ID.Block){
