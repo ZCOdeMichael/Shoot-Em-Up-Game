@@ -89,6 +89,9 @@ public class Enemy extends GameObject{
 	
 	private void collision() {
 		  for(int i = 0; i < handler.object.size(); i++) {
+			  if(handler.object.size() == i)
+					break;
+			  
 		   GameObject tempObject = handler.object.get(i);
 		   
 		   if(tempObject.getId() == ID.Player) {

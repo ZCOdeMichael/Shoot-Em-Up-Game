@@ -47,7 +47,7 @@ public class Game extends Canvas implements Runnable{
 	}
 	
 	//Stops the thread
-	public void stop (){
+	public void stop (){ 
 		isRunning = false;
 		try {
 			thread.join();
